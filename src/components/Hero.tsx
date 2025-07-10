@@ -1,4 +1,3 @@
-
 import { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import { Github, Linkedin, Mail, Download, Code, Zap, Shield } from 'lucide-react';
@@ -11,7 +10,7 @@ const Hero = () => {
   
   const titles = [
     'Cybersecurity Enthusiast',
-    'Ethical Hacker',
+    'Ethical Hacker', 
     'Future Cyber Commando',
     'Penetration Tester'
   ];
@@ -78,11 +77,11 @@ const Hero = () => {
           whileHover={{ scale: 1.05 }}
         >
           <div className="w-48 h-48 mx-auto rounded-full bg-gradient-to-r from-green-400 to-cyan-400 p-1">
-            <div className="w-full h-full rounded-full overflow-hidden bg-black">
+            <div className="w-full h-full rounded-full overflow-hidden bg-black flex items-center justify-center">
               <img 
                 src="https://i.postimg.cc/cL25vdF4/me.jpg" 
                 alt="Manikandan S - Cybersecurity Professional"
-                className="w-full h-full object-cover object-center"
+                className="w-full h-full object-cover object-[center_20%]"
               />
             </div>
           </div>
