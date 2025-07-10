@@ -1,7 +1,6 @@
-
 import { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
-import { Github, Linkedin, Mail, Download, Shield, Code, Zap } from 'lucide-react';
+import { Github, Linkedin, Mail, Download, Code, Zap, Shield } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 
 const Hero = () => {
@@ -78,8 +77,12 @@ const Hero = () => {
           whileHover={{ scale: 1.05 }}
         >
           <div className="w-48 h-48 mx-auto rounded-full bg-gradient-to-r from-green-400 to-cyan-400 p-1">
-            <div className="w-full h-full rounded-full bg-black flex items-center justify-center">
-              <Shield className="w-24 h-24 text-green-400" />
+            <div className="w-full h-full rounded-full overflow-hidden">
+              <img 
+                src="https://i.postimg.cc/cL25vdF4/me.jpg" 
+                alt="Manikandan S - Cybersecurity Professional"
+                className="w-full h-full object-cover rounded-full"
+              />
             </div>
           </div>
         </motion.div>
