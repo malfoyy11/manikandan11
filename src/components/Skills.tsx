@@ -177,7 +177,7 @@ const Skills = () => {
           <h3 className="text-2xl font-mono text-cyan-400 mb-6 text-center">Certifications & Achievements</h3>
           <div className="flex flex-wrap justify-center gap-4">
             {[
-              { name: "CCNA Certified", issuer: "Cisco", year: "2024" },
+              { name: "CCNA Certified", issuer: "Cisco", year: "2024",link: "https://www.credly.com/badges/ca4adc60-df62-4b1d-bde4-b1c82054cea9/public_url" },
               { name: "Ethical Hacking", issuer: "Self-Study", year: "2023" },
               { name: "Digital Forensics", issuer: "Cybercrime Police Training", year: "2024" }
             ].map((cert, index) => (
