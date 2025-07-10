@@ -45,14 +45,14 @@ const Contact = () => {
     {
       icon: Mail,
       label: "Email",
-      value: "manikandan.cyber@gmail.com",
-      href: "mailto:manikandan.cyber@gmail.com",
+      value: "cybermani007@gmail.com",
+      href: "mailto:cybermani@gmail.com",
       color: "green"
     },
     {
       icon: Phone,
       label: "Phone",
-      value: "+91 9876543210",
+      value: "+91 9361009093",
       href: "tel:+919876543210",
       color: "cyan"
     },
@@ -69,8 +69,8 @@ const Contact = () => {
     {
       icon: Github,
       name: "GitHub",
-      url: "https://github.com/manikandan-cyber",
-      username: "@manikandan-cyber",
+      url: "https://github.com/malfoyy11",
+      username: "malfoyy11",
       color: "text-green-400 hover:text-green-300"
     },
     {
@@ -83,8 +83,8 @@ const Contact = () => {
     {
       icon: MessageSquare,
       name: "Discord",
-      url: "https://discord.com/users/manikandan",
-      username: "@manikandan#1234",
+      url: "https://discord.com/users/manikandan11",
+      username: "cybermai007@gmail.com",
       color: "text-green-400 hover:text-green-300"
     }
   ];
