@@ -8,7 +8,7 @@ const Experience = () => {
     {
       title: "Cybercrime Police Station Intern",
       organization: "Pondicherry Police Department",
-      duration: "2024",
+      duration: "2025",
       type: "Internship",
       description: "Gained hands-on experience in real-world cybercrime investigation and digital forensics.",
       achievements: [
@@ -23,7 +23,7 @@ const Experience = () => {
     {
       title: "Independent Offensive Security Developer",
       organization: "Self-Employed",
-      duration: "2023 - Present",
+      duration: "2021 - Present",
       type: "Development",
       description: "Built and tested various cybersecurity tools and ethical hacking utilities for educational purposes.",
       achievements: [
@@ -151,7 +151,7 @@ const Experience = () => {
             </h3>
             <div className="grid md:grid-cols-3 gap-4">
               {[
-                { category: 'Technical Skills', items: ['Python Development', 'Digital Forensics', 'Network Security'] },
+                { category: 'Technical Skills', items: ['Python Development', 'Digital Forensics', 'Network Security',' PC hardware and IOT'] },
                 { category: 'Security Tools', items: ['Penetration Testing', 'RAT Development', 'Encryption Systems'] },
                 { category: 'Legal Knowledge', items: ['Cyber Law', 'Investigation Procedures', 'Incident Response'] }
               ].map((category, index) => (
