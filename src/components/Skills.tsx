@@ -25,6 +25,7 @@ const Skills = () => {
         { name: "Network Security", level: 88 },
         { name: "Windows System Admin", level: 85 },
         { name: "TCP/IP Protocols", level: 90 }
+        { name: "subnetting",level: 85}
       ]
     },
     {
@@ -36,6 +37,7 @@ const Skills = () => {
         { name: "HTML/CSS/JS", level: 85 },
         { name: "Bash Scripting", level: 80 },
         { name: "SQL", level: 75 }
+        { name: "GO", level: 60 } 
       ]
     },
     {
