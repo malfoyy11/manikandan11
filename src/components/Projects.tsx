@@ -20,7 +20,7 @@ const Projects = () => {
       icon: MessageSquare,
       color: "green",
       status: "Completed",
-      github: "https://github.com/manikandan/bluetooth-chat"
+      github: "https://github.com/malfoyy11/blue-T-chat"
     },
     {
       title: "VoldemortRAT",
@@ -36,7 +36,7 @@ const Projects = () => {
       icon: Shield,
       color: "cyan",
       status: "Completed",
-      github: "https://github.com/manikandan/voldemort-rat"
+      github: "https://github.com/malfoyy11/voldemort-shell"
     },
     {
       title: "Emocrypt",
@@ -52,7 +52,7 @@ const Projects = () => {
       icon: Lock,
       color: "green",
       status: "Completed",
-      github: "https://github.com/manikandan/password-checker",
+      github: "https://github.com/malfoyy11/emocrypt"
       demo: "https://password-checker-demo.com"
     },
     {
@@ -69,8 +69,8 @@ const Projects = () => {
       icon: Globe,
       color: "cyan",
       status: "Active",
-      github: "https://github.com/manikandan/portfolio",
-      demo: "https://manikandan-portfolio.com"
+      github: "https://github.com/malfoyy11/portfolio",
+      demo: 
     },
     {
       title: "Network Security Scanner",
@@ -86,7 +86,7 @@ const Projects = () => {
       icon: Code,
       color: "green",
       status: "In Development",
-      github: "https://github.com/manikandan/network-scanner"
+      github: "https://github.com/malfoyy11/network-scanner"
     }
   ];
 
