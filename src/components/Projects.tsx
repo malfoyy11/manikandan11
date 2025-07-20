@@ -39,15 +39,15 @@ const Projects = () => {
       github: "https://github.com/manikandan/voldemort-rat"
     },
     {
-      title: "Secure Password Checker",
+      title: "Emocrypt",
       year: "2024",
-      description: "Advanced password security analysis tool with entropy calculation, breach detection, and comprehensive security recommendations.",
-      technologies: ["Python", "Cryptography", "API Integration", "Security Analysis"],
+      description: " powerful encryption tool that transforms your private messages into a single emoji or sticker using strong cryptographic techniques.",
+      technologies: ["AES (Symmetric)RSA (Asymmetric)", "Cryptography","Security Analysis"],
       features: [
-        "Entropy calculation",
-        "Breach database checking",
-        "Strength analysis",
-        "Security recommendations"
+        "message input",
+        "key input",
+        "encryptred string",
+        "mapped emoji or sticker"
       ],
       icon: Lock,
       color: "green",
