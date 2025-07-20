@@ -1,4 +1,3 @@
-
 import { motion } from 'framer-motion';
 import { ExternalLink, Github, Code, Shield, MessageSquare, Lock, Globe } from 'lucide-react';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
@@ -20,7 +19,7 @@ const Projects = () => {
       icon: MessageSquare,
       color: "green",
       status: "Completed",
-      github: "https://github.com/malfoyy11/blue-T-chat"
+      github: "https://github.com/malfoyy11/bluetooth-chat"
     },
     {
       title: "VoldemortRAT",
@@ -36,24 +35,24 @@ const Projects = () => {
       icon: Shield,
       color: "cyan",
       status: "Completed",
-      github: "https://github.com/malfoyy11/voldemort-shell"
+      github: "https://github.com/malfoyy11/voldermort-shell"
     },
     {
       title: "Emocrypt",
       year: "2024",
-      description: " powerful encryption tool that transforms your private messages into a single emoji or sticker using strong cryptographic techniques.",
-      technologies: ["AES (Symmetric)RSA (Asymmetric)", "Cryptography","Security Analysis"],
+      description: "Powerful encryption tool that transforms your private messages into a single emoji or sticker using strong cryptographic techniques.",
+      technologies: ["AES (Symmetric)", "RSA (Asymmetric)", "Cryptography", "Security Analysis"],
       features: [
-        "message input",
-        "key input",
-        "encryptred string",
-        "mapped emoji or sticker"
+        "Message input",
+        "Key input",
+        "Encrypted string",
+        "Mapped emoji or sticker"
       ],
       icon: Lock,
       color: "green",
       status: "Completed",
-      github: "https://github.com/malfoyy11/manikandan11"
-      demo: "https://password-checker-demo.com"
+      github: "https://github.com/malfoyy11/emocrypt",
+      demo: "https://emocrypt demo.com"
     },
     {
       title: "Cybersecurity Portfolio",
@@ -70,7 +69,7 @@ const Projects = () => {
       color: "cyan",
       status: "Active",
       github: "https://github.com/malfoyy11/portfolio",
-      demo: 
+      demo: "https://manikandan-portfolio.com"
     },
     {
       title: "Network Security Scanner",
@@ -170,8 +169,7 @@ const Projects = () => {
                 </CardHeader>
                 <CardContent className="space-y-4">
                   <p className="text-gray-300 leading-relaxed">{project.description}</p>
-                  
-                  {/* Technologies */}
+
                   <div>
                     <h4 className="text-green-400 font-mono text-sm font-semibold mb-2">Technologies:</h4>
                     <div className="flex flex-wrap gap-2">
@@ -186,7 +184,6 @@ const Projects = () => {
                     </div>
                   </div>
 
-                  {/* Features */}
                   <div>
                     <h4 className="text-green-400 font-mono text-sm font-semibold mb-2">Key Features:</h4>
                     <ul className="space-y-1">
@@ -199,7 +196,6 @@ const Projects = () => {
                     </ul>
                   </div>
 
-                  {/* Action Buttons */}
                   <div className="flex space-x-3 pt-4">
                     <Button
                       variant="outline"
@@ -231,26 +227,6 @@ const Projects = () => {
             </motion.div>
           ))}
         </div>
-
-        {/* GitHub Stats */}
-        <motion.div className="mt-16 text-center" variants={itemVariants}>
-          <div className="bg-gray-900/30 border border-green-500/20 rounded-lg p-6">
-            <h3 className="text-green-400 font-mono text-lg mb-6">Development Activity</h3>
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-              {[
-                { label: 'Total Projects', value: '10+', icon: Code },
-                { label: 'Lines of Code', value: '50K+', icon: Shield },
-                { label: 'Commits This Year', value: '200+', icon: Github }
-              ].map(({ label, value, icon: Icon }, index) => (
-                <div key={index} className="text-center">
-                  <Icon className="w-8 h-8 text-green-400 mx-auto mb-2" />
-                  <div className="text-2xl font-bold text-cyan-400 font-mono">{value}</div>
-                  <div className="text-gray-400 text-sm">{label}</div>
-                </div>
-              ))}
-            </div>
-          </div>
-        </motion.div>
       </motion.div>
     </section>
   );
