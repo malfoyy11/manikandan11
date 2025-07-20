@@ -52,7 +52,7 @@ const Projects = () => {
       icon: Lock,
       color: "green",
       status: "Completed",
-      github: "https://github.com/malfoyy11/emocrypt"
+      github: "https://github.com/malfoyy11/manikandan11"
       demo: "https://password-checker-demo.com"
     },
     {
